@@ -1,0 +1,7 @@
+﻿1.chrome浏览器设置font-size：10px的问题，由于chrome默认设置识别最小12px，所有当设置的值<=12时，都会被设为12px，解决：将font-size：100px,使用时1rem=100px;
+2.使用elemenUI的el-container布局，每个布局容器（el-header,el-main,el-footer,el-aside等)都有自带的padding，需要单独清除才不影响布局
+
+3.npm install npm-check -g //版本检测工具
+  npm-check 检测node-modules依赖包的版本
+  npm update -S
+  npm update -D
